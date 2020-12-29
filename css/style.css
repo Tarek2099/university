@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    
+}
+a, a:hover{
+    text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header-section {
+    width: 100%;
+    background: url("../images/Background.png") center top no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ffc178 !important;
+    border-bottom: 1px solid #ffc178;
+/*    padding: 0px;*/
+}
+.header-section .navbar-brand img{
+    width: 60px;
+    margin-top: 10px;
+}
+.header-section .navbar-nav{
+    
+}
+.header-section .navbar-nav .nav-item{
+    
+}
+.header-section .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 45px;
+    padding: 0;
+    opacity: .8;
+    
+}
+.header-section .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
+    color: #ffc178 !important;
+    border-bottom: 1px solid #ffc178;
+    padding: 0px;
+}
+.header-section .form-inline .btn-info {
+    padding: 7px 25px;
+    text-transform: capitalize;
+    background: #fff;
+    color: #ffc178;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 1px 10px 50px #f2efee;
+    transition: 1s;
+}
+.header-section .form-inline .btn-info:hover, .header-section .form-inline .btn-info:focus{
+    background: #ffc178;
+    color:  #fff;
+}
+.header-section .banner{
+    width: 100%;
+    padding: 150px 0px 300px 0px;
+}
+.header-section .banner .title{
+    width: 100%;
+}
+.header-section .banner .title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #ffc178;
+}
+.header-section .banner .title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 10px 0px 20px 0px;
+    color: #000;
+    opacity: .9;
+}
+.header-section .banner .title .btn-info{
+    padding: 7px 25px;
+    text-transform: capitalize;
+    background: #ffc178;
+    color: #fff;
+    border: 1px solid #ffc178;
+    border-radius: 20px;
+}
+.header-section .banner .title .btn-info:hover, .header-section .banner .title .btn-info:focus{
+    background:  #fff;
+    color: #ffc178;
+    border: 1px solid #fff;
+}
+
+
+
+.department{
+    width: 100%;
+    padding: 0px 0px;
+}
+.department .title{
+    text-align: center;
+}
+.department .title h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.department .title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.department .dep2{
+    width: 100%;
+    padding: 40px 0px;
+}
+.department .dep2 .card1{
+    position: relative;
+}
+.department .dep2 .card1 img{
+    width: 95%;
+}
+.department .dep2 .card1 h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+}
+
+
+
+
+.about{
+    width: 100%;
+     background: url("../images/bg%20shape.png") left top no-repeat;
+    background-size: contain;
+    padding: 80px 0px;
+}
+.about img{
+    width: 90%;
+    margin-top: 20px;
+   
+}
+.about .title{
+    
+}
+.about .title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.about .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    opacity: .9;
+    margin-top: 25px;
+}
+
+
+
+
+.university{
+    width: 100%;
+    padding: 40px 0px;
+    background: url("../images/BG4.png") right top no-repeat;
+    background-size: contain;
+}
+.university h3{
+   font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.university .card{
+    width: 97% !important;
+    height: 94%;
+    box-shadow: 1px 2px 10px #777;
+}
+
+
+
+
+
+
+.top-footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #252c3a;
+}
+.top-footer .container{
+    width: 1200px;
+}
+.top-footer .title{
+    width: 78%;
+    margin-left: 178px;
+    position: absolute;
+}
+.top-footer .title p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    opacity: .5;
+    margin-top: 25px;
+}
+.top-footer .title hr{
+    border-top: 1px solid rgb(171 145 145 / 35%);
+}
+.top-footer .title ul{
+    margin-left: -15px;
+    margin-top: 30px;
+}
+.top-footer .title ul li{
+    display: inline-block;
+}
+.top-footer .title ul li a{
+    
+}
+.top-footer .title ul li a i{
+    font-size: 20px;
+    color: #fff;
+    opacity: .2;
+    margin-left: 16px;
+}
+.top-footer .title ul li a i:hover, .top-footer .title ul li a i:focus{
+    color: blue;
+    background: transparent;
+    opacity: 1;
+}
+.top-footer .title2{
+    margin-left: 125px;
+}
+.top-footer .title2 h6{
+    color: #fff;
+}
+.top-footer .title2 ul{
+    margin-top: 50px;
+}
+.top-footer .title2 ul li{
+    margin-top: 20px;
+    display:block;
+    list-style: none;
+}
+.top-footer .title2 ul li a{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    opacity: .5;
+}
+.top-footer .title2 ul li a:hover, .top-footer .title2 ul li a:focus{
+    color: blue;
+    background: transparent;
+    opacity: 1;
+}
+.top-footer .title3{
+    margin-left: -60px;
+}
+.top-footer .title3 h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.top-footer .title3 ul{
+    margin-top: 50px;
+}
+.top-footer .title3 ul li{
+    margin-top: 20px;
+    display:block;
+    list-style: none;
+}
+.top-footer .title3 ul li a{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    opacity: .5;
+}
+.top-footer .title3 ul li a:hover, .top-footer .title3 ul li a:focus{
+    color: blue;
+    background: transparent;
+    opacity: 1;
+}
+.top-footer .title4{
+    top: 0;
+    right: 0;
+    margin: -248px -890px 99px -41px;
+    position: absolute;
+}
+.top-footer .title4 h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.top-footer .title4 p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    opacity: .5;
+    margin-top: 25px;
+}
+
+.top-footer .title4 .form-inline{
+    
+}
+.top-footer .title4 .form-inline .form-control{
+    padding: 7px 25px;
+    border: 1px solid #252c3a;
+}
+.top-footer .title4 .btn-primary{
+    padding: 6px 10px;
+    margin-left: 5px;
+}
+.top-footer .title4 .btn-primary:hover, .top-footer .title4 .btn-primary:focus{
+    background: #fff;
+    color: #252c3a;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
